@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Web Developer - Hannes Tikkanen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand nav-logo" href="#">Hannestee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools">Tools & Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-white">
+                    <h1 class="display-5 text-white">Welcome</h1>
+                    <p>I'm a web developer from Vantaa and on this site you can see some of my work. Currently I'm
+                        available for work.</p>
+                    <a href="#contact" class="btn btn-brand">Contact</a>
+                </div>
+                <img class="img-fluid avatar" src="img/avatar.png" alt="Web developer Hannes Tikkanen">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="row justify-content-center text-center">
+            <div class="col-12 section-title">
+                <h1>Projects</h1>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <div class="row g-0 border border-dark">
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="project-item">
+                    <img src="img/issuetracker.png" alt="To-do list / Issue tracker">
+                    <a href="https://github.com/hannestee/todolist-issuetracker" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>To-do list / Issue tracker</h3>
+                                <h6>Issue tracker created with React, Node express and MongoDB.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <img src="img/poetryreader.png" alt="Poetry reader">
+                    <a href="https://github.com/hannestee/poetryreader" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>Poetry Reader</h3>
+                                <h6>Reads poetry toml files. Coded with Javascript and uses Node express.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-sm-6 border-right-0 border-dark">
+
+                <div class="project-item">
+                    <img src="img/pwa.png" alt="Progressive Web Application">
+                    <a href="https://github.com/hannestee/PWA-webshop-prototype" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>Progressive Web Application</h3>
+                                <h6>Thesis project made with Angular and Firebase.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <img src="img/blog.png" alt="Blog">
+                    <a href="https://github.com/hannestee/blog-with-users" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>Blog</h3>
+                                <h6>Blog made with Python and Flask.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="project-item">
+                    <img src="img/painikepeli.png" alt="Painikepeli">
+                    <a href="https://github.com/hannestee/painikepeli" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>Painikepeli</h3>
+                                <h6>React, Node, express, socket.io.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <img src="img/fennooptiikka.png" alt="Fennooptiikka">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" target="_blank">
+                        <div class="project-overlay">
+                            <div>
+                                <h3>Fennooptiikka / Nettiaika</h3>
+                                <h6>Read more of my time as a graphic web designer.</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Assignment: Graphic Web Designer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <strong>Fenno Optiikka</strong>
+                    <p>1.8.2017-1.6.2018</p>
+                    <p>The purpose of the project was to revamp the website of the Finnish optician chain Fenno
+                        Optiikka. Key feature was to
+                        add a gallery of available glasses for the public to see as the website at that point lacked it.
+                        In the project we worked in a
+                        team of ~5 people so it was a small scale project.</p>
+                    <ul>
+                        <li>
+                            As a Graphic Web Designer I designed website layouts with Photoshop and then sent them to
+                            the Wordpress
+                            expert in our team.
+                        </li>
+                        <li>
+                            I communicated with the client both face-to-face and remotely on the new features of the
+                            site and how the
+                            content should be distributed to each page.
+                        </li>
+                        <li>
+                            After the Wordpress site was coded I inspected it for errors both in functionality and the
+                            appearance. I also
+                            received feedback from the client and translated it to rest of the team.
+                        </li>
+                        <li>
+                            I acted as a kind of mediator in determining which requested features could be added
+                            realistically in the time
+                            frame which was given from the management. Sometimes compromises were made.
+                        </li>
+                        <li>
+                            I managed the content itself on the Wordpress site and made changes according to the
+                            client’s requests. Aside
+                            from the content I did also take a look under the hood of Wordpress and while learning the
+                            code I did some
+                            minor changes.
+                        </li>
+                        <li>
+                            Tools & Technologies used: Photoshop, Wordpress, PHP, CSS, Skype
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="skills" class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 section-title text-center">
+                <h1>Skills</h1>
+                <div class="divider"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">HTML</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">CSS</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">JavaScript</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Python</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">PHP</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">React</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">NoSQL (MongoDB)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">SQL (PostgreSQL)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Java</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Progressive Web Applications</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Website Hosting, Servers</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Active Directory</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Azure</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Office365</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Linux</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Windows 7/10</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Android</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Virtual Computers</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">CMS (Wordpress)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Video editing (Premiere)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">3D-Modelling (Blender)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-dark">Image Editing (Photoshop)</p>
+                    </div>
+                    <div class="col-6">
+                        <div class="star-icons text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="tools">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 section-title text-center">
+                    <h1>Tools & Technologies</h1>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-vscode-plain colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">Visual Studio Code</h5>
+                        <p>I use this tool for almost all of my coding. Visual Studio Code is a very useful development
+                            environment for web developers. It has many features that help developers write code more
+                            efficiently and effectively.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">React</h5>
+                        <p>I am currently learning React. Check my latest <a
+                                href="https://github.com/hannestee/todolist-issuetracker" alt="issuetracker"
+                                target="_blank">project</a> made with it.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-git-plain colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">Git</h5>
+                        <p>For version control. Here is my Github <a href="https://github.com/hannestee/"
+                                alt="issuetracker" target="_blank">profile</a>. This makes it easy to share code between
+                            team members or to track the changes of different parts of your codebase.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">Bootstrap</h5>
+                        <p>To build responsive sites faster. Bootstrap reduces the amount of time it takes to build a
+                            website by providing predefined styles & templates which help in designing components with
+                            less code. Bootstrap makes it easy to handle different forms of input such as dates,
+                            numbers, email addresses etc..</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-chrome-plain colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">Chrome Dev Tools</h5>
+                        <p>For inspecting and debugging the code of the applications I am working on.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 feature d-flex">
+                    <div class="tool-icon">
+                        <i class="devicon-digitalocean-plain colored"></i>
+                    </div>
+                    <div>
+                        <h5 class="title-sm">DigitalOcean</h5>
+                        <p>For website hosting needs.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container text-dark">
+            <div class="row gy-4">
+                <div class="col-12 section-title text-center">
+                    <h1>Courses & Certifications</h1>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <p class="text-center">I have completed the following courses & certifications:</p>
+            <div class="row  list-group">
+                <ul>
+                    <li class="list-group-item">
+                        Udemy: The Complete 2022 Web Development Bootcamp - Angela Yu
+                    </li>
+                    <li class="list-group-item">
+                        Udemy: 100 Days of Code - The Complete Python Pro Bootcamp for 2021 - Angela Yu
+                    </li>
+                    <li class="list-group-item">
+                        Udemy: The Web Developer Bootcamp 2021 - Colt Steele
+                    </li>
+                    <li class="list-group-item">
+                        Udemy: Become a WordPress Developer: Unlocking Power With Code - Brad Schiff
+                    </li>
+                    <li class="list-group-item">
+                        freeCodeCamp: JavaScript Algorithms and Data Structures 9.10.2021
+                    </li>
+                    <li class="list-group-item">
+                        freeCodeCamp: Responsive Web Design 14.5.2021
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 section-title text-center">
+                    <h1>Contact</h1>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <img src="img/contact.jpg" alt="">
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <form action="mailto:hannesteex@gmail.com" method="POST" enctype=”multipart/form-data”
+                        name=”EmailForm”>
+                        <div class="mb-3">
+                            <small>Name</small>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <small>Email</small>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <small>Message</small>
+                            <textarea name="message" id="" cols="30" rows="4" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-brand">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <h3 class="text-white">Let's build something great.</h3>
+                </div>
+                <div class="col-auto">
+                    <a href="#contact" class="btn btn-light">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4 class="logo-text">Hannestee</h4>
+                        <p>Ever since I was a kid I have been interested in computers and technology. Through hobbies
+                            and school I have gained experience designing and developing mobile and web applications. I
+                            am interested in software development jobs. </p>
+                        <div class="social-icons">
+                            <a href="https://github.com/hannestee/"><i class="bi bi-github"></i></a>
+                            <a href="https://twitter.com/hannest7"><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/hannes-tikkanen-657aa081/"><i
+                                    class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5 class="title-sm">Navigation</h4>
+                            <div class="footer-links">
+                                <a href="#projects">Projects</a>
+                                <a href="#skills">Skills</a>
+                                <a href="#tools">Tools & Technologies</a>
+                                <a href="#courses">Courses</a>
+                            </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5 class="title-sm">Contact</h4>
+                            <div class="footer-links">
+                                <p class="mb">Helsinki metropolitan area</p>
+                                <p class="mb">hannesteex@gmail.com</p>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between gy-3">
+                    <div class="col-md-auto">
+                        <p class="mb-0">© Hannes Tikkanen. All rights reserved. Images from Unsplash.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>
