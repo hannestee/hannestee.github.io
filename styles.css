@@ -56,23 +56,44 @@ img {
 
 /* Home styles */
 
-#home {
-    /* background: linear-gradient(rgba(57, 37, 4, 0.7), rgba(19, 43, 120, 0.6)), url(https://images.unsplash.com/photo-1512531123205-560f5974e686?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80); */
-    background: linear-gradient(rgba(57, 37, 4, 0.7), rgba(19, 43, 120, 0.6)), url('img/render_result_viking_hut.png');
-	min-height: 100vh;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
 }
 
-#home h1 {
-    margin-top: 60px;
-    font-weight: 700;
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
-#home p {
-    max-width: 600px;
-    margin: 20px auto;
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .btn {
@@ -157,6 +178,10 @@ img {
 .tool-icon i {
     margin-right: 16px;
     font-size: 32px;
+}
+
+.tool-icon img {
+	margin-right: 16px;
 }
 
 /* CTA styles */
