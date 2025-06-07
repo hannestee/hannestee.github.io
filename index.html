@@ -74,7 +74,7 @@
             </div>
         </div>
 		
-		<div class="row justify-content-center text-center mb-5">
+	<div class="row justify-content-center text-center mb-5">
 	<div class="col-lg-4 col-sm-6 border border-dark p-4 rounded bg-light">
 
     <!-- Project Header -->
@@ -107,10 +107,19 @@
 
     <!-- Main Menu Screenshot -->
     <div class="mb-4">
-      <img src="img/bouncysphere/mainmenu.PNG" class="img-fluid rounded shadow-sm" alt="Main menu"
+      <img src="img/bouncysphere/cover.PNG" class="img-fluid rounded shadow-sm" alt="Main menu"
            style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#BouncySphereModalMenu">
     </div>
-
+	
+	<div class="ratio ratio-16x9 mb-4">
+	<iframe 
+    src="https://www.youtube.com/embed/vexeDxrG-XI" 
+    title="YouTube video player" 
+    allowfullscreen 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+	</iframe>
+	</div>
+	
     <!-- Screenshot Gallery -->
     <div class="d-flex justify-content-center gap-3 flex-wrap">
       <img src="img/bouncysphere/screenshot1.png" class="img-fluid rounded shadow-sm" style="max-width: 30%; cursor:pointer;" alt="Screenshot 1"
@@ -127,6 +136,8 @@
 
       <img src="img/bouncysphere/screenshot5.png" class="img-fluid rounded shadow-sm" style="max-width: 30%; cursor:pointer;" alt="Screenshot 5"
            data-bs-toggle="modal" data-bs-target="#BouncySphereModal5">
+		<img src="img/bouncysphere/mainmenu.png" class="img-fluid rounded shadow-sm" style="max-width: 30%; cursor:pointer;" alt="Screenshot 5"
+           data-bs-toggle="modal" data-bs-target="#BouncySphereModal6">
     </div>
 
   </div>
@@ -520,16 +531,33 @@
             </div>
         </div>
     </div>
+	
+	<div class="modal fade" id="BouncySphereModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="BouncySphereModal6">Bouncy Sphere screenshot 6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <img src="img/bouncysphere/mainmenu.png" alt="Bouncy Sphere screenshot 6">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<div class="modal fade" id="BouncySphereModalMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="BouncySphereModalMenu">Bouncy Sphere Menu</h5>
+						<h5 class="modal-title" id="BouncySphereModalMenu">Bouncy Sphere</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body text-dark">
-						<img src="img/bouncysphere/mainmenu_highres.PNG" alt="Bouncy Sphere Menu">
+						<img src="img/bouncysphere/cover.PNG" alt="Bouncy Sphere">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
